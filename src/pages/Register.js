@@ -116,7 +116,7 @@ export default function Register() {
                                 <Form.Label>Mobile No:</Form.Label>
                                 <Form.Control
                                     type="text"
-                                    placeholder="Enter 11 Digit No."
+                                    placeholder="Enter 10 Digit No."
                                     required
                                     value={mobileNo}
                                     onChange={e => setMobileNo(e.target.value)}
