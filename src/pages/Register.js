@@ -28,7 +28,7 @@ export default function Register() {
             password &&
             confirmPassword &&
             password === confirmPassword &&
-            mobileNo.length === 11
+            mobileNo.length === 10
         ) {
             setIsActive(true);
         } else {
